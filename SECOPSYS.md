@@ -17,7 +17,13 @@ yarn run dev:secopsys
 http://localhost:3000/viewer?StudyInstanceUIDs={uid}&token={token}
 
 ## Deployment
-
+### Local
+```
+docker build -t ohif-local .
+docker image inspect ohif-local --format '{{json .Config.ExposedPorts}}'
+docker run --name ohif-test -e PUBLIC_URL=/ -e PORT=8080 -p 3000:8080 ohif-local
+```
+### Cloud
 ```
 .\deploy.ps1
 ```
