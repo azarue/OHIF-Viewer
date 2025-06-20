@@ -19,5 +19,5 @@ http://localhost:3000/viewer?StudyInstanceUIDs={uid}&token={token}
 ## Deployment
 
 ```
-gcloud run deploy ohif --source .
+.\deploy.ps1
 ```
