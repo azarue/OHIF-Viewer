@@ -17,7 +17,7 @@ window.config = {
   //     // ~ REQUIRED
   //     // Authorization Server URL
   //     authority: 'https://accounts.google.com',
-  //     client_id: '723928408739-k9k9r3i44j32rhu69vlnibipmmk9i57p.apps.googleusercontent.com',
+  //     client_id: '6194423968-h27rp9e6qnck95j3sef3dpbk6n7culp0.apps.googleusercontent.com',
   //     redirect_uri: '/callback',
   //     response_type: 'id_token token',
   //     scope:
@@ -42,11 +42,11 @@ window.config = {
         friendlyName: 'dcmjs DICOMWeb Server',
         name: 'GCP',
         wadoUriRoot:
-          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies-prod/dicomWeb',
         qidoRoot:
-          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies-prod/dicomWeb',
         wadoRoot:
-          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies-prod/dicomWeb',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
