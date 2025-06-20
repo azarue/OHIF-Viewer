@@ -1,6 +1,7 @@
 /** @type {AppTypes.Config} */
 // @ts-ignore
 window.config = {
+  showPatientInfo: "visibleReadOnly",
   investigationalUseDialog: {
     option: "never"
   },
