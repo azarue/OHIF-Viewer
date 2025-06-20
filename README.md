@@ -1,3 +1,6 @@
+# Secopsys
+- [Secopsys specific instructions](SECOPSYS.md)
+
 <!-- prettier-ignore-start -->
 <div align="center">
   <h1>OHIF Medical Imaging Viewer</h1>
