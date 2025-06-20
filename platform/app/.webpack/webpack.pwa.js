@@ -79,6 +79,10 @@ module.exports = (env, argv) => {
         // Hoisted Yarn Workspace Modules
         path.resolve(__dirname, '../../../node_modules'),
         SRC_DIR,
+        path.resolve(
+          __dirname,
+          'C:/Users/azaru/source/repos/Secop/ohif/ohif/secopsys-viewer/node_modules'
+        ),
       ],
     },
     plugins: [
