@@ -14,10 +14,10 @@ docker push me-west1-docker.pkg.dev/secopsys-adiel-924/cloud-run-source-deploy/o
 gcloud run deploy ohif --image me-west1-docker.pkg.dev/secopsys-adiel-924/cloud-run-source-deploy/ohif:latest --region me-west1 --platform managed --allow-unauthenticated
 
 # 6) Remove the local image tag to reclaim disk space
-# docker rmi me-west1-docker.pkg.dev/secopsys-adiel-924/cloud-run-source-deploy/ohif:latest
+docker rmi me-west1-docker.pkg.dev/secopsys-adiel-924/cloud-run-source-deploy/ohif:latest
 
 # 7) Clean up dangling image layers left over from the build
-# docker image prune -f
+docker image prune -f
 
 # 8) Clear the BuildKit build cache for a fresh start next time
-# docker builder prune -a -f
+docker builder prune -a -f
