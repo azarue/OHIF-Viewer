@@ -11,6 +11,7 @@
       "platform/i18n",
       "extensions/*",
       "modes/*",
+      "secopsys-viewer",
       "addOns/externals/*"
     ],
     "nohoist": [

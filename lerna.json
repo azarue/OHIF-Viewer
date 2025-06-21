@@ -1,5 +1,5 @@
 {
   "version": "3.11.0-beta.58",
-  "packages": ["extensions/*", "platform/*", "modes/*", "addOns/externals/*"],
+  "packages": ["extensions/*", "platform/*", "modes/*", "addOns/externals/*", "secopsys-viewer"],
   "npmClient": "yarn"
 }
