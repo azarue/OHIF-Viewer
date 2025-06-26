@@ -43,11 +43,11 @@ window.config = {
         friendlyName: 'dcmjs DICOMWeb Server',
         name: 'GCP',
         wadoUriRoot:
-          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies-prod/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/us-east4/datasets/secopsys/dicomStores/studies/dicomWeb',
         qidoRoot:
-          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies-prod/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/us-east4/datasets/secopsys/dicomStores/studies/dicomWeb',
         wadoRoot:
-          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/me-west1/datasets/secop-dataset/dicomStores/studies-prod/dicomWeb',
+          'https://healthcare.googleapis.com/v1/projects/secopsys-adiel-924/locations/us-east4/datasets/secopsys/dicomStores/studies/dicomWeb',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
